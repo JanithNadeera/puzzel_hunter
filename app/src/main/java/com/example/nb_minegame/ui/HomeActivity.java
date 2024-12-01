@@ -137,7 +137,7 @@ public class HomeActivity extends AppCompatActivity {
 
 
         binding.pinLayout.lblSubmit.setOnClickListener(view -> {
-            remainTime = 15;
+            remainTime = 20;
             timer.cancel();
             checkAnswer();
 
