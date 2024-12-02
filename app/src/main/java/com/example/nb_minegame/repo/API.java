@@ -11,7 +11,7 @@ import retrofit2.http.HeaderMap;
 import retrofit2.http.Path;
 
 public interface API {
-    @GET("/uob/smile/api.php")
+    @GET("/uob/banana/api.php")
     Call<QuizResponse> fetchQuize();
 
 
